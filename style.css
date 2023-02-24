@@ -68,3 +68,53 @@ footer {
 	text-align: center;
 	padding: 10px;
 }
+section{
+    padding: 100px 200px;
+    color: black;
+}
+.main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(pic/codingmm.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+.main h2{
+    color: aliceblue;
+    font-size: 1.4em;
+    font-weight: 500;
+
+}
+.main h2 span{
+    display: inline;
+    margin-top: 10px;
+    color: bisque;
+    font-size: 3em;
+    font-weight: 600;
+}
+.main h3 {
+    color: antiquewhite;
+    font-size: 2em;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.main-btn{
+
+color: antiquewhite;
+background-color: deepskyblue;
+text-decoration: none;
+font-size: 1.6em;
+font: weight 400px;;
+display: inline-block;
+padding: 0.9375em.1875em;
+letter-spacing: 1px;
+border-radius: 30px;
+margin-bottom: 40px;
+transition: 0.7s ease;
+}

@@ -1,0 +1,70 @@
+/* Set default font and background color */
+body {
+	font-family: Arial, sans-serif;
+	background-color: ghostwhite;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+/* Style the header */
+header {
+	background-color: darkcyan;
+	color: white;
+	text-align: center;
+	padding: 0px;
+    margin: 0%;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Style the navigation menu */
+nav {
+	background-color: #333;
+	color: white;
+	padding: 10px;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+nav a {
+	color: white;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #dd4b39;
+}
+
+/* Style the main content */
+main {
+	margin: 20px;
+}
+
+section {
+	background-color: white;
+	padding: 20px;
+	margin-bottom: 20px;
+	border-radius: 5px;
+	box-shadow: 0 0 5px #888888;
+}
+
+h2 {
+	color: #dd4b39;
+}
+
+/* Style the footer */
+footer {
+	background-color: #333;
+	color: white;
+	text-align: center;
+	padding: 10px;
+}
